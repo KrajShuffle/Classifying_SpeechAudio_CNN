@@ -65,6 +65,7 @@ Overall, the Spectrify & PyTorch Dataset class accomplish 3 ***key*** steps:
 
 For inference, this entire workflow along with being able to adapt to user's gender (Male or Female) has been saved as separate functions within the Speech_Classify Class, which can easily be called as demonstrated in the example provided in the DynGen_WavFileClassification Jupyter Notebook. 
 
+## Applications
 
-
+At this repository's core, this repository documents an adaptable data processing and feature selection workflow, model training architecture, and inference workflow for creating human speech classification models. These models only require speech to be sampled at 22,050 Hz (can be resampled if necessary) and corresponding TextGrid files for creating cleaner and higher quality input features. Therefore, people who are interested in adapting these workflows for other human speech classification tasks can certainly do so.
 
